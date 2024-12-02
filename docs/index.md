@@ -2,7 +2,7 @@
 
 *Autor Roly Alcoser 1º de DAM*
 
-**Entorno De Desarrollo**
+## **Entorno De Desarrollo [EDD]**
 
 * **U1. Desenvolupament de software**
 
@@ -27,7 +27,7 @@
     Actividades  
     * [Actividad 01](./EDD/T4/Actividad.md)
 
-**Lenguaje de Marcas y Sistemas**
+## **Lenguaje de Marcas y Sistemas [LMI]**
 
 * **U1. Caracterització dels llenguatges de marques**
 
@@ -54,30 +54,26 @@
     Modificados + css  
     * [Actividad 13](./LMI/T2/modificados/ej11_modif.html)
     * [Actividad 14](./LMI/T2/modificados/ej12_modif.html)
-    * [Actividad 15](./LMI/T2/modificados/form_registro.html)
-    
-
-    
+    * [Actividad 15](./LMI/T2/modificados/form_registro.html) 
+   
 * **U3. Manipulació de documents web: Javascript**
 
-* **U2. Utilització de llenguatges de marques en entorns web: HTML i CSS**
-
-
-<!--## Este es mi sitio
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` * Create a new project.
-* `mkdocs serve` * Start the live-reloading docs server.
-* `mkdocs build` * Build the documentation site.
-* `mkdocs -h` * Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
--->
+    Elementos de lenguaje  
+    * [Actividad 01](./LMI/T3/Elementos-de-lenguaje/ej1.js)
+    * [Actividad 02](./LMI/T3/Elementos-de-lenguaje/ej2.js)
+    * [Actividad 03](./LMI/T3/Elementos-de-lenguaje/ej3.js)
+    * [Actividad 04](./LMI/T3/Elementos-de-lenguaje/ej4.js)
+    * [Actividad 05](./LMI/T3/Elementos-de-lenguaje/ej5.js)       
+    
+    Funciones  
+    * [Actividad 01](./LMI/T3/Funciones/ej1.js)
+    * [Actividad 02](./LMI/T3/Funciones/ej1.js)
+        
+    Programacion estructurada  
+    * [Actividad 01](./LMI/T3/Programacion-estructurada/ej1.js)
+    * [Actividad 02](./LMI/T3/Programacion-estructurada/ej2.js)
+    * [Actividad 03](./LMI/T3/Programacion-estructurada/ej3.js)
+    * [Actividad 04](./LMI/T3/Programacion-estructurada/ej4.js)
+    * [Actividad 05](./LMI/T3/Programacion-estructurada/ej5.js)
+    
+    
