@@ -82,6 +82,30 @@ Anota en ella els diferents canvis que vas fent sobre el teu directori de trebal
     `-d`  elimina carpetas no rastreadas junto con los archivos no rastreados.  
     `git clean -f -d`
 
+13. Listar las ramas existentes:
+
+    Te muestra todas las ramas disponibles en el repositorio.
+    `git branch`
+
+14. Crear una nueva rama:
+
+    Crea una nueva rama con el nombre que elijas, pero no te cambia automáticamente a ella.
+    `git branch <rama>`
+
+15. Cambiar a otra rama:
+
+    Cambia a la rama que indiques para trabajar en ella.
+    `git checkout <rama>`
+
+16. Eliminar una rama:
+
+    Borra una rama que ya no necesites, pero solo si está completamente fusionada.
+    `git branch -d <rama>`
+
+17. Restablecer el repositorio a un commit anterior:
+
+    Restablece todos los archivos del repositorio al estado exacto de un commit anterior. Advertencia: Los cambios posteriores no guardados pueden perderse.
+    `git reset --hard <id_commit>`
 
 El archivo `.gitignore` le dice a Git qué archivos o carpetas no debe incluir en el control de versiones. Es útil para evitar subir datos sensibles, archivos temporales o generados automáticamente, como logs o configuraciones locales.
 
@@ -141,3 +165,4 @@ I adjunta al final del document també una captura de pantalla del resultat de:
 -----
 
 [https://joamuran.net/curs24_25/edd/ud3_scv/5.svc_git/](https://joamuran.net/curs24_25/edd/ud3_scv/5.svc_git/)
+[https://joamuran.net/curs24_25/edd/ud3_scv/6.branques/](https://joamuran.net/curs24_25/edd/ud3_scv/6.branques/)
