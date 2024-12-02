@@ -125,7 +125,7 @@ compilats/*[ao]
 
 ------
 
-# **Ejercicio 2**
+## **Ejercicio 2**
 Una vegada hages finalitzat, còpia com a codi el resultat de l'ordre:  
 `git log`
 
