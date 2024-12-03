@@ -1,4 +1,6 @@
-/*package com.roly.edd;
+//EjecutarCal.java
+
+//package com.roly.edd;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -39,4 +41,3 @@ public class EjecutarCal {
         }
     }
 }
-*/

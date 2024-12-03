@@ -1,4 +1,5 @@
-/*package com.roly.edd;
+//Calculadora.java
+//package com.roly.edd;
 
 public class Calculadora {
     public static int sumar(int a, int b) {
@@ -18,4 +19,3 @@ public class Calculadora {
         return (double) a / b;
     }
 }
-*/
