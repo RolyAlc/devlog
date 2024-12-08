@@ -2,23 +2,17 @@ site_name: Apuntes LMI y EDD 24/25
 theme:
   name: 'material'
   custom_dir: 'overrides'
-  # palette:
-  #   primary: '#3f51b5'
-  #   accent: '#e91e63'
-  #   background: '#ffffff'
-  #   surface: '#f5f5f5'
-  #   error: '#f44336'
   features:
-      - navigation.tabs
-      - navigation.sections
-      - toc.integrate
-      - navigation.top
-      - search.suggest
-      - search.highlight
-      - contecnt.tabs.link
-      - content.code.annotation
-      - contenct.code.copy  
-  language: en
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - contecnt.tabs.link
+    - content.code.annotation
+    - contenct.code.copy  
+  language: esp
   palette:
     - scheme: default
       toggle:
@@ -33,7 +27,7 @@ theme:
       primary: teal
       accent: lime
 
-extra_css:
-  - './docs/overrides/extra.css'
+  extra_css:
+    - './docs/overrides/extra.css'
 
       
