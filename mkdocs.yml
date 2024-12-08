@@ -10,3 +10,6 @@ theme:
     error: '#f44336'
 extra_css:
   - 'overrides/extra.css'
+
+copyright: 
+  &copy; 2024 <p>Derechos reservados - Roly Alcoser</p>
