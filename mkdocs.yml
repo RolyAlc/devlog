@@ -1,29 +1,12 @@
 site_name: Apuntes LMI y EDD 24/25
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  language: esp
+  name: 'material'
+#  custom_dir: 'overrides'
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-      primary: teal
-      accent: purple
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-      primary: teal
-      accent: lime
-    
-    
+    primary: '#3f51b5'
+    accent: '#e91e63'
+    background: '#ffffff'
+    surface: '#f5f5f5'
+    error: '#f44336'
+extra_css:
+  - 'overrides/extra.css'
