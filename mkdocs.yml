@@ -13,18 +13,18 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Entorno De Desarrollo [EDD]
-    - U1. Desenvolupament de software
+  - Entorno De Desarrollo [EDD]:
+    - U1. Desenvolupament de software:
       - Actividad 01: ./EDD/T1/Documento_01.md
       - Actividad 02: ./EDD/T1/Documento_02.md
       - Actividad 03: ./EDD/T1/Documento_03.md
       - Actividad 04: ./EDD/T1/Documento_04.md
       - Actividad 05: ./EDD/T1/Documento_05.md
       - Actividad 06: ./EDD/T1/Documento_06.md
-    - U2. Eines de Desenvolupament. Entorns integrats
-    - U3. Sistemes de Control de Versions
-    - U4. La plataforma Java. Eines d'automatització
-  - Lenguaje de Marcas y Sistemas [LMI]
-    - U1. Caracterització dels llenguatges de marques
-    - U2. Utilització de llenguatges de marques en entorns web: HTML i CSS
-    - U3. Manipulació de documents web: Javascript
+    - U2. Eines de Desenvolupament. Entorns integrats:
+    - U3. Sistemes de Control de Versions:
+    - U4. La plataforma Java. Eines d'automatització:
+  - Lenguaje de Marcas y Sistemas [LMI]:
+    - U1. Caracterització dels llenguatges de marques:
+    - U2. Utilització de llenguatges de marques en entorns web HTML i CSS:
+    - U3. Manipulació de documents web Javascript:
