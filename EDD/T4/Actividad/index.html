@@ -1,0 +1,785 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
+    
+    
+      
+        <title>Activitat - Herramientas de automatización - Apuntes LMI y EDD 24/25</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#3f51b5" data-md-color-accent="#e91e63">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#activitat-herramientas-de-automatizacion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Apuntes LMI y EDD 24/25" class="md-header__button md-logo" aria-label="Apuntes LMI y EDD 24/25" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Apuntes LMI y EDD 24/25
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Activitat - Herramientas de automatización
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Apuntes LMI y EDD 24/25" class="md-nav__button md-logo" aria-label="Apuntes LMI y EDD 24/25" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Apuntes LMI y EDD 24/25
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../docs/index.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entorno De Desarrollo [EDD]
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Entorno De Desarrollo [EDD]
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    U1. Desenvolupament de software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            U1. Desenvolupament de software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T1/Documento_01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Actividad 01
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T1/Documento_02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Actividad 02
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T1/Documento_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Actividad 03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T1/Documento_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Actividad 04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T1/Documento_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Actividad 05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T1/Documento_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Actividad 06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#herramientas-de-automatizacion-java-javac" class="md-nav__link">
+    <span class="md-ellipsis">
+      Herramientas de automatización - java, javac
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Herramientas de automatización - java, javac">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-fichero-y-comprobar-la-estructura-de-carpetas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear fichero y comprobar la estructura de carpetas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archivos-java" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archivos java
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compilar-java" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compilar java
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejecucion-del-programa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejecución del programa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classpath-y-destino-de-la-compilacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classpath y destino de la compilación
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classpath y destino de la compilación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-directorio-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear directorio “build”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compilacion-dirigida-con-estructura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compilación dirigida con estructura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compilacion-con-dependencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compilación con dependencias
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estructura-completa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura completa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejecutar-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejecutar código
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="activitat-herramientas-de-automatizacion"><strong>Activitat - Herramientas de automatización</strong></h1>
+<p>Crea una classe anomenada Calculadora en un paquet format pel teu nom (per exemple com.jose.edd) amb els següents mètodes (funcions):</p>
+<ul>
+<li>public static int suma(int a, int b): Que suma a i b i retorna el resultat,</li>
+<li>public static int resta(int a, int b): Que resta a i b i retorna el resultat,</li>
+<li>public static int multiplica(int a, int b): Que multiplica a i b i retorna el resultat,</li>
+<li>public static int divideix(int a, int b): Que divideix a entre b i retorna el resultat. Si b és 0, mostra l'error i torna un 0.</li>
+</ul>
+<p>I una altra classe que a la funció principal faça ús d'aquestes funcions, i mostre els resultats per pantalla.</p>
+<p>Crea el directori build, i fes ús d'aquest com a classpath.</p>
+<p>Indica a un fitxer Markdown el procés que has seguit, incloent el codi font, les ordres per compilar i per executar, i l'estructura de carpetes resultant. Fes una breu explicació de cada cosa.</p>
+<hr />
+<h2 id="herramientas-de-automatizacion-java-javac"><strong>Herramientas de automatización - java, javac</strong></h2>
+<h3 id="crear-fichero-y-comprobar-la-estructura-de-carpetas"><strong>Crear fichero y comprobar la estructura de carpetas</strong></h3>
+<pre><code>mkdir -p saludaBase/src/com/roly/edd
+tree saludaBase/
+</code></pre>
+<p><img alt="image1" src="../../Media/T4/T4Ac01-001.png" /></p>
+<h3 id="archivos-java"><strong>Archivos java</strong></h3>
+<p>Creamos dos ficheros, uno el programa y otro aquel que maneja la interacción con el usuario y utiliza la lógica definida por el otro fichero java.</p>
+<p><img alt="image2" src="../../Media/T4/T4Ac01-002.png" /></p>
+<p>Archivos javas:</p>
+<ul>
+<li>
+<p>Calculadora.java</p>
+<ul>
+<li>Contiene métodos estáticos para realizar las operaciones matemáticas (sumar, restar, multiplicar, dividir).  </li>
+<li>Proporciona métodos reutilizables que realizan cálculos.  </li>
+<li>Código:  </li>
+</ul>
+</li>
+</ul>
+<pre><code>package com.roly.edd;
+
+public class Calculadora {
+    public static int sumar(int a, int b) {
+        return a + b;
+    }
+
+    public static int restar(int a, int b) {
+        return a - b;
+    }
+
+    public static int multiplicar(int a, int b) {
+        return a * b;
+    }
+
+    public static double dividir(int a, int b) {
+        if (b == 0) throw new ArithmeticException(&quot;No se puede dividir por 0&quot;);
+        return (double) a / b;
+    }
+}
+</code></pre>
+<ul>
+<li>
+<p>EjecutarCal.java:</p>
+<ul>
+<li>Gestiona la interacción con el usuario: solicita datos, recibe el operador, y utiliza los métodos de <code>Calculadora</code> para realizar cálculos, mostrando los resultados.</li>
+<li>Código:</li>
+</ul>
+</li>
+</ul>
+<pre><code>package com.roly.edd;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class EjecutarCal {
+    static Scanner teclat = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        try {
+            System.out.println(&quot;Dime dos valores: &quot;);
+            int a = teclat.nextInt();
+            int b = teclat.nextInt();
+            teclat.nextLine();
+
+            System.out.println(&quot;Dime un operador (+, -, *, /): &quot;);
+            char operador = teclat.nextLine().charAt(0);
+
+            switch (operador) {
+                case '+':
+                    System.out.println(&quot;Suma: &quot; + a + &quot; + &quot; + b + &quot; = &quot; + Calculadora.sumar(a, b));
+                    break;
+                case '-':
+                    System.out.println(&quot;Resta: &quot; + a + &quot; - &quot; + b + &quot; = &quot; + Calculadora.restar(a, b));
+                    break;
+                case '*':
+                    System.out.println(&quot;Multiplicación: &quot; + a + &quot; * &quot; + b + &quot; = &quot; + Calculadora.multiplicar(a, b));
+                    break;
+                case '/':
+                    System.out.println(&quot;División: &quot; + a + &quot; / &quot; + b + &quot; = &quot; + Calculadora.dividir(a, b));
+                    break;
+                default:
+                    System.out.println(&quot;Operador no válido&quot;);
+            }
+        } catch (InputMismatchException e) {
+            System.out.println(&quot;Error en la entrada de datos&quot;);
+        } catch (ArithmeticException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+</code></pre>
+<h3 id="compilar-java"><strong>Compilar java</strong></h3>
+<p>Ejecutaremos javac para compilar el código fuente Java y generar los archivos <code>.class</code>, que contiene el bytecode, la cual es el formato para que la máquina (JVM) pueda entender y ejecutar.<br />
+Nos situaremos en un directorio más arriba, como en <code>saludaBase/src</code>.</p>
+<pre><code>javac com/roly/edd/Calculadora.java
+javac com/roly/edd/EjecutarCal.java
+tree
+</code></pre>
+<p><img alt="image3" src="../../Media/T4/T4Ac01-003.png" /></p>
+<h3 id="ejecucion-del-programa"><strong>Ejecución del programa</strong></h3>
+<ul>
+<li>La JVM carga el archivo <code>EjecutarCal.class</code> desde la estructura de paquetes <code>com.roly.edd.xxx</code>.</li>
+<li>Interpreta el bytecode y comienza la ejecución desde el método <code>main</code> del archivo <code>EjecutarCal.java</code>.</li>
+</ul>
+<p><img alt="image4" src="../../Media/T4/T4Ac01-004.png" /></p>
+<ul>
+<li>El programa interactúa con el usuario según lo definido en el código fuente.</li>
+</ul>
+<p>Ejemplo de ejecución del código.</p>
+<pre><code>java com.roly.edd.Ejecutar.Cal
+</code></pre>
+<p><img alt="image5" src="../../Media/T4/T4Ac01-005.png" /></p>
+<h2 id="classpath-y-destino-de-la-compilacion"><strong>Classpath y destino de la compilación</strong></h2>
+<h3 id="crear-directorio-build"><strong>Crear directorio “build”</strong></h3>
+<p>Crearemos la carpeta “build” y comprobaremos la estructura del directorio.</p>
+<p><img alt="image6" src="../../Media/T4/T4Ac01-006.png" /></p>
+<h3 id="compilacion-dirigida-con-estructura"><strong>Compilación dirigida con estructura</strong></h3>
+<pre><code>javac -d build/ src/com/roly/edd/Calculadora.java
+</code></pre>
+<p>El comando compila el código fuente ubicado en “src/com/roly/edd/Calculadora.java” y genera el archivo “.class” (bytecode) en una carpeta específica (build/). Esto hace que la estructura del paquete (com/alumno/edd) se replique automáticamente dentro de la carpeta build.</p>
+<ul>
+<li>La opción -d especifica el directorio de salida donde se colocarán los archivos compilados .class</li>
+</ul>
+<p>Ejecución del comando y comprobar la estructura</p>
+<p><img alt="image7" src="../../Media/T4/T4Ac01-007.png" /></p>
+<h3 id="compilacion-con-dependencias"><strong>Compilación con dependencias</strong></h3>
+<pre><code>javac -d build -classpath build src/com/roly/edd/EjecutarCal.java
+</code></pre>
+<p>El comando compila el archivo <code>EjecutarCal.java</code> desde la carpeta <code>src/com/roly/edd/</code> y coloca su archivo <code>.class</code> en la carpeta build.</p>
+<ul>
+<li>La opción <code>-classpath build</code> le indica al compilador dónde buscar las clases ya compiladas (como <code>Calculadora.class</code>), necesarias para que el programa funcione.</li>
+</ul>
+<p><img alt="image8" src="../../Media/T4/T4Ac01-008.png" /></p>
+<h3 id="estructura-completa"><strong>Estructura completa</strong></h3>
+<pre><code>tree saludaBase/
+</code></pre>
+<p><img alt="image9" src="../../Media/T4/T4Ac01-009.png" /></p>
+<h3 id="ejecutar-codigo"><strong>Ejecutar código</strong></h3>
+<pre><code>java -cp build/ com.roly.edd.EjecutarCal
+</code></pre>
+<p>Ejecutamos el programa Java especificando en la clase <code>EjecutarCal</code>, situada en el paquete <code>com.roly.edd</code>.</p>
+<ul>
+<li><code>-cp (o --class-path)</code> indica el directorio donde la JVM debe buscar las clases compiladas. En este caso, build/ es el directorio donde se encuentran los archivos .class generados por javac.</li>
+</ul>
+<p><img alt="image10" src="../../Media/T4/T4Ac01-010.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

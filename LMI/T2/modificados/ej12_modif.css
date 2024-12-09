@@ -1,0 +1,53 @@
+.LMI {
+    background-color: #FFD3B4;
+}
+
+.SI {
+    background-color: #FFAAA5;
+}
+
+.EDD {
+    background-color: #FFD571;
+}
+
+.INGLES {
+    background-color: #D4F1F4;
+}
+
+.IPO {
+    background-color: #A6E3E9;
+}
+
+.PRG {
+    background-color: #81D4FA;
+}
+
+.BD {
+    background-color: #B39DDB;
+}
+
+.PROYECTO {
+    background-color: #A5D6A7;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+table,
+th,
+td {
+    border: 1px solid #333333;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333333;
+    color: #ffffff;
+}
