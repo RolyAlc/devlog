@@ -9,18 +9,18 @@ theme:
     surface: '#f5f5f5'
     error: '#f44336'
   extra_css:
-    - 'overrides/extra.css'
+    - '.docs/overrides/extra.css'
 
 nav:
-  - Inicio: index.md
+  - Inicio: ./docs/index.md
   - Entorno De Desarrollo [EDD]:
     - U1. Desenvolupament de software:
-      - Actividad 01: ./EDD/T1/Documento_01.md
-      - Actividad 02: ./EDD/T1/Documento_02.md
-      - Actividad 03: ./EDD/T1/Documento_03.md
-      - Actividad 04: ./EDD/T1/Documento_04.md
-      - Actividad 05: ./EDD/T1/Documento_05.md
-      - Actividad 06: ./EDD/T1/Documento_06.md
+      - Actividad 01: .docs/EDD/T1/Documento_01.md
+      - Actividad 02: .docs/EDD/T1/Documento_02.md
+      - Actividad 03: .docs/EDD/T1/Documento_03.md
+      - Actividad 04: .docs/EDD/T1/Documento_04.md
+      - Actividad 05: .docs/EDD/T1/Documento_05.md
+      - Actividad 06: .docs/EDD/T1/Documento_06.md
     - U2. Eines de Desenvolupament. Entorns integrats:
     - U3. Sistemes de Control de Versions:
     - U4. La plataforma Java. Eines d'automatització:
