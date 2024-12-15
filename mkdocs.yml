@@ -21,7 +21,7 @@ nav:
       - "Actividad 04": 'EDD/T1/Documento_04.md'
       - "Actividad 05": 'EDD/T1/Documento_05.md'
       - "Actividad 06": 'EDD/T1/Documento_06.md'
-    - "U2. Eines de Desenvolupament. Entorns integrats":
+    - "U2. Eines de Desenvolupament. Entorns integrats": []
     - "U3. Sistemes de Control de Versions":
       - "Actividad 01": 'EDD/T3/ej1.md'
       - "Apuntes": 'EDD/T3/ejercicio.md'
@@ -46,6 +46,6 @@ nav:
         - "Actividad 10": 'LMI/T2/ej10.html'
         - "Actividad 11": 'LMI/T2/ej11.html'
         - "Actividad 12": 'LMI/T2/ej12.html'
-      - "Modificados + css":
-    - "U3. Manipulació de documents web Javascript":
+      - "Modificados + css": []
+    - "U3. Manipulació de documents web Javascript": []
         
