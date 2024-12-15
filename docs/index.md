@@ -31,6 +31,8 @@
 * Actividades
 
     * [Actividad 01](./EDD/T4/Actividad.md)
+    * [Actividad 02](./EDD/T4/Ant.md)
+    * [Actividad 03](./EDD/T4/Maven.md)
 
 ## **Lenguaje de Marcas y Sistemas [LMI]**
 
