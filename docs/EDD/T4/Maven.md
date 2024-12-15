@@ -79,3 +79,35 @@ Este comando ejecuta la clase principal `EjecutarCal` que contiene el método `m
 7. Ejecutamos el programa.
 
 ![image6](../Media/T4/T4Ac04-006.png)
+
+## **Maven Act 3. Genera el projecte correctament des d'un altre IDE a la seua selecció.**
+
+1. Creamos entorno maven en Netbens
+
+![image1](../Media/T4/T4Ac05-001.png)
+
+![image2](../Media/T4/T4Ac05-002.png)
+
+2. Modificar estructura maven por defecto.
+
+Añadiremos los archivos java de calculadora.java y EjectuarCal.java y modificaramos el archivo pom.xml. 
+
+![image3](../Media/T4/T4Ac05-003.png)
+
+3. Descargaremos las dependencias que estan incluidas del pom.xml
+
+![image4](../Media/T4/T4Ac05-004.png)
+
+4. Ejecutaremos maven dandole click derecho y seleccionando `Clean and Build` para que pueda crear en base al archivo pom.xml.
+
+![image5](../Media/T4/T4Ac05-005.png)
+
+![image6](../Media/T4/T4Ac05-006.png)
+
+Se puede observar como se crear una carpeta llamada target
+
+5. Ejecutaremos el programa
+
+![image7](../Media/T4/T4Ac05-007.png)
+
+![image8](../Media/T4/T4Ac05-008.png)
