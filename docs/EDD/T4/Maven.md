@@ -71,3 +71,11 @@ Este comando ejecuta la clase principal `EjecutarCal` que contiene el método `m
 5. Una vez generado el proyecto, si echamos un vistazo a la estructura de carpetas generada y al pom.xml , veremos que es prácticamente igual a la que definimos en la consola.
 
 ![image4](../Media/T4/T4Ac04-004.png)
+
+6. Añadimos los arvhicos y modificamos el pom.xml. Posteriormente ejecutamos maven.
+
+![image5](../Media/T4/T4Ac04-005.png)
+
+7. Ejecutamos el programa.
+
+![image6](../Media/T4/T4Ac04-006.png)
