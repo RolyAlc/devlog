@@ -49,3 +49,25 @@ Para ejecutar el programa después de compilarlo, podemos hacerlo directamente c
 ![image7](../Media/T4/T4Ac03-007.png)
 
 Este comando ejecuta la clase principal `EjecutarCal` que contiene el método `main()`, utilizando la carpeta `target/classes` como el `classpath`.
+
+
+
+## **Maven Act 2. Genera el projecte correctament des de VSCde.**
+
+1. Buscamos la ventana en VSC donde aparezca "MAVEN" y daremos click al simbolo "+" para crear un proyecto Maven nuevo:
+
+![image1](../Media/T4/T4Ac04-001.png)
+
+2. En la paleta de órdenes nos aparecerán los diferentes arquetipos de los que disponemos. Busque quickstart, y seleccione `maven-Archetype-quickstart`.
+
+![image2](../Media/T4/T4Ac04-002.png)
+
+3. Indique la versión (1.0), el groupId (com.roly.edd), y el nom (calculadoravsc) del proyecto.
+
+4. Además, si usas el terminal integrado de VSCode, nos mostrará la versión propietaria que falta por configurar. Dejamos el valor predeterminado `1.0-SNAPSHOT`, y pulsamos Intro para crear el proyecto:
+
+![image3](../Media/T4/T4Ac04-003.png)
+
+5. Una vez generado el proyecto, si echamos un vistazo a la estructura de carpetas generada y al pom.xml , veremos que es prácticamente igual a la que definimos en la consola.
+
+![image4](../Media/T4/T4Ac04-004.png)
