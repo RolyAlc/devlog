@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_registro</title>
+    <link rel="stylesheet" href="form_registro.css">
+</head>
+<body>
+    <form name="Formulario_de_contacto">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required> <br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos"> <br>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="606060606" required> <br>
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" placeholder="eje@ejemplo.com" required> <br>
+        <label for="asunto">Mensaje</label> <br>
+        <textarea name="asunto" id="asunto" rows="5" cols="25" placeholder="Tu mensaje" required></textarea> <br>
+        <input type="checkbox" id="privacidad" name="privacidad" value="politica_de_privacidad" required>
+        <label for="privacidad">Acepto la política de privacidad</label> <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px 20px 20px 50px;
+}
+
+.texto_grande {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #798383;
+    letter-spacing: 6px;
+    margin: 55px 0px 25px 0px;
+    
+}
+
+p,
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+ul li {
+    list-style-type: square;    
+}
+
+p {
+    line-height: 1.7;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-right: 25px;
+    margin-left: 15px;
+}

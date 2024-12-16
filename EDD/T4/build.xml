@@ -1,0 +1,18 @@
+<project name="Caculadora">
+    <target name="clean">
+        <delete dir="build" />
+    </target>
+
+    <target name="compile" depends="clean">
+        <mkdir dir="build" />
+        <javac includeantruntime="false" 
+        srcdir="src/com/roly/edd" destdir="build" />
+    </target>
+
+    <target name="run" depends="compile">
+        <property name="arg0" value=""/>
+        <java classpath="build" classname="com.roly.edd.EjecutarCal">
+                <arg value="${arg0}"/>
+        </java>
+    </target>
+</project>
