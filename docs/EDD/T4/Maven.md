@@ -3,7 +3,7 @@
 
 1. Crear un nuevo proyecto Maven usando el arquetipo quickstart
 
-Ejecuta el siguiente comando para crear un nuevo proyecto Maven con el arquetipo `quickstart`:
+Ejecutar con el siguiente comando para crear un nuevo proyecto Maven con el arquetipo `quickstart`:
 
 ``` bash
 mvn archetype:generate -DgroupId=com.roly.edd -DartifactId=calculadora -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
