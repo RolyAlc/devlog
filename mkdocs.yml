@@ -1,15 +1,63 @@
 site_name: Apuntes LMI y EDD 24/25
 theme:
-  name: 'material'
+  name: material
+  font:
+    text: Merriwather Sans
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/r
+  # logo: <url img>
+  # favicon: <url img>
+  features:
+    - navigation.footer
 #  custom_dir: 'overrides'
   palette:
-    primary: '#3f51b5'
-    accent: '#e91e63'
-    background: '#ffffff'
-    surface: '#f5f5f5'
-    error: '#f44336'
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+      # background: '#fffff'
+      # surface: '#f5f5f5'
+      # error: '#f44336'
+    # Light Mode
+    - scheme: dafault
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: blue
+      accent: deep orange
   extra_css:
     - '.docs/overrides/extra.css'
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      # emoji_index: !!python/name:material.extensions.emoji.twemoji
+      # emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: pymdownx.superfences.fence_code_format
+        # format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra: 
+  social:
+    - icon: simple/github
+
+copyright: Copyright &copy; 2025 Roly Alcoser Rocha
 
 nav:
   - Inicio: './docs/index.md'
